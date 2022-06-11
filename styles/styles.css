@@ -44,13 +44,21 @@ ul {
 
 /*----Шапка----*/
 
-
-.conteiner-header {
-    border-bottom: 1px;
-    border-color: #ECECEC;
+.nav {
+    border-bottom: 1px solid #ECECEC;
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
+.conteiner-header {
+    display: flex;
+    align-items: center;
+     flex-wrap: wrap;
+}
+
+.site-nav {
+    margin-left: 93px;
+    }
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -65,6 +73,14 @@ ul {
 .logo-nav {
     color: var(--dark-logo);;
 }
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link-list:not(:last-child) {
+    margin-right: 50px;
+  }
 
 .nav-link-item {
     font-weight: 500;
@@ -82,6 +98,11 @@ ul {
     color: var(--selection-color);
 }
 
+.nav-contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 .nav-contacts-item {
     font-weight: 500;
     line-height: 1.2;
