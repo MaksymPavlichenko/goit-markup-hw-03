@@ -100,7 +100,7 @@ ul {
 
 .nav-contacts {
     display: flex;
-    margin-left: 331px;
+    margin-left: auto;
     align-items: center;
 }
 
@@ -120,7 +120,7 @@ ul {
     margin-right: 50px;
 }
 
-.header .container {
+.conteiner-header {
     display: flex;
     align-items: center;
 }
