@@ -23,6 +23,7 @@ h3,
 p,
 ul {
     margin: 0;
+    padding: 0;
 }
 
 .list {
@@ -37,27 +38,22 @@ ul {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0;
+    margin: 0 auto;
 }  
 
 
 /*----Шапка----*/
 
 .nav {
-    border-bottom: 1px solid #ECECEC;
-    margin-top: 24px;
-    margin-bottom: 24px;
-}
-
-.conteiner-header {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
-    margin-left: 93px;
-    }
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -67,6 +63,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--selection-color);
+    margin-right: 93px;
 }
 
 .logo-nav {
@@ -75,6 +72,7 @@ ul {
 
 .nav-link {
     display: flex;
+    align-items: center;
 }
 
 .nav-link-list:not(:last-child) {
@@ -99,9 +97,10 @@ ul {
 
 .nav-contacts {
     display: flex;
-    align-items: center;
     margin-left: auto;
+    align-items: center;
 }
+
 .nav-contacts-item {
     font-weight: 500;
     line-height: 1.2;
@@ -114,6 +113,14 @@ ul {
     color: var(--selection-color);
 }
 
+.header-contacts-item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
 
 /*----Основная чать----*/
 
@@ -162,7 +169,6 @@ ul {
 }
 
 .section {
-    padding-top: 94px;
     padding-bottom: 94px;
   }
 
