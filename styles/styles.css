@@ -184,7 +184,7 @@ ul {
 
 .dignity-item:not(:last-child) {
     margin-right: 30px;
-  }
+}
 
 .dignity-list-title {
     font-size: 14px;
@@ -298,7 +298,7 @@ ul {
 /*----Футер----*/
 
 
-.footer{
+.footer {
     background-color: var(--bg-dark);
     padding-top: 60px;
     padding-bottom: 60px;
