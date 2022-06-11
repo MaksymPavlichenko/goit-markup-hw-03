@@ -16,6 +16,15 @@ body {
     color: var(--dark-text);
 }
 
+h1,
+h2,
+h3,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .list {
     list-style: none;
 }
