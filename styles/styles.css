@@ -14,6 +14,7 @@ body {
     font-style: normal;
     font-size: 14px;
     color: var(--dark-text);
+    margin: 0;
 }
 
 h1,
@@ -129,6 +130,10 @@ ul {
     background-color: var(--selection-color-dark);
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 
 /*----Наши достоинства----*/
 
