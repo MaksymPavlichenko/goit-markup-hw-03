@@ -118,7 +118,7 @@ ul {
 
 .nav-contacts-list:not(:last-child) {
     margin-right: 50px;
-  }
+}
 
 .header .container {
     display: flex;
