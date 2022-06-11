@@ -22,8 +22,7 @@ h2,
 h3,
 p,
 ul {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .list {
@@ -38,7 +37,7 @@ ul {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin: 0;
 }  
 
 
@@ -53,7 +52,7 @@ ul {
 .conteiner-header {
     display: flex;
     align-items: center;
-     flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .site-nav {
@@ -205,6 +204,12 @@ ul {
 
 .team {
     background-color: var(--bg-else) 
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+
 }
 
 .team-member-discription {
