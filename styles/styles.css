@@ -116,7 +116,7 @@ ul {
     color: var(--selection-color);
 }
 
-.header-contacts-list:not(:last-child) {
+.nav-contacts-list:not(:last-child) {
     margin-right: 50px;
   }
 
