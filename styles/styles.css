@@ -235,10 +235,16 @@ ul {
 
 .footer{
     background-color: var(--bg-dark);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer {
     color: var(--bg-main);
+}
+
+.logo.link {
+    margin-bottom: 20px;
 }
 
 .address {
@@ -255,6 +261,10 @@ ul {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.contacts-item:not(:last-child) {
+    margin-bottom: 9px;
+  }
 
 
 /*----Портфолио----*/
