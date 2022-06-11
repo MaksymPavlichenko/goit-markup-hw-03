@@ -101,15 +101,19 @@ ul {
 .hero {
     background-color: var(--bg-dark);
     color: var(--bg-main);
+    padding: 200px 0px;
 }
 
 .hero-discription {
+    max-width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .hero-button {
@@ -121,8 +125,15 @@ ul {
     letter-spacing: 0.06em;
     background-color: var(--selection-color);
     color: var(--bg-main);
+    display: flex;
+    align-items: center;
+    text-align: center;
     border-radius: 4px;
     cursor: pointer;
+    padding: 10px 32px;
+    margin: 0 auto;
+    border-width: 0;
+    border-radius: 4px;
 }
 
 .hero-button:hover,
