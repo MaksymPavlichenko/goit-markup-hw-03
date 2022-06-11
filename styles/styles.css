@@ -210,10 +210,6 @@ ul {
 
 /*----Работы----*/
 
-.section.work {
-    padding-top: 0px;
-}
-
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -221,8 +217,20 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dark-text);
+    margin-bottom: 50px;
 }
 
+.work-exaples {
+    display: flex;
+}
+
+.work-item:not(last-child) {
+    margin-right: 30px;
+  }
+  
+  .work-item > img {
+      display: block;
+  }
 
 /*----Команда----*/
 
