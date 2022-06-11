@@ -35,7 +35,7 @@ ul {
 
 .section {
     padding-bottom: 94px;
-  }
+}
 
 .container {
     width: 1200px;
@@ -80,7 +80,7 @@ ul {
 
 .nav-link-list:not(:last-child) {
     margin-right: 50px;
-  }
+}
 
 .nav-link-item {
     font-weight: 500;
@@ -226,11 +226,11 @@ ul {
 
 .work-item:not(last-child) {
     margin-right: 30px;
-  }
+}
   
-  .work-item > img {
-      display: block;
-  }
+.work-item > img {
+    display: block;
+}
 
 /*----Команда----*/
 
@@ -331,7 +331,7 @@ ul {
 
 .contacts-item:not(:last-child) {
     margin-bottom: 9px;
-  }
+}
 
 
 /*----Портфолио----*/
@@ -374,7 +374,7 @@ ul {
 
 .filter-btn:not(:last-child) {
     margin-right: 8px;
-  }
+}
 
 .portfolio-list {
     border: 1px;
