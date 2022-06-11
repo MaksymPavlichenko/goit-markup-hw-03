@@ -188,6 +188,9 @@ ul {
 
 /*----Работы----*/
 
+.section.work {
+    padding-top: 0px;
+}
 
 .work-title {
     font-weight: 700;
@@ -218,6 +221,12 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
+.team-member-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
 
 .team-member-name{
     font-weight: 500;
