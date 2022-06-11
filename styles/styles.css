@@ -33,8 +33,23 @@ ul {
     text-decoration: none;
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}  
+
+
 /*----Шапка----*/
 
+
+.conteiner-header {
+    border-bottom: 1px;
+    border-color: #ECECEC;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 
 .logo {
     font-family: "Raleway", sans-serif;
