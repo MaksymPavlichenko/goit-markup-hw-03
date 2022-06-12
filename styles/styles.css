@@ -227,13 +227,9 @@ ul {
     display: flex;
 }
 
-.work-item:not(last-child) {
+.work-item:not(:last-child) {
     margin-right: 30px;
 }
-  
-.work-item:last-child {
-    margin-right: 0;
-  }
 
 .work-item > img {
     display: block;
