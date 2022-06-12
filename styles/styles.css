@@ -14,6 +14,7 @@ body {
     font-style: normal;
     font-size: 14px;
     color: var(--dark-text);
+    margin: 0;
 }
 
 h1,
@@ -48,8 +49,6 @@ ul {
 /*----Шапка----*/
 
 .nav {
-    padding-top: 24px;
-    padding-bottom: 25px;
     border-bottom: 1px solid #ececec;
 }
 
@@ -87,6 +86,8 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark-text);
+    padding: 32px 0;
+    display: block;
 }
 
 .nav-link-item:hover,
@@ -109,6 +110,8 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--text-main);
+    padding: 32px 0;
+    display: block;
 }
 
 .nav-contacts-item:hover,
@@ -228,6 +231,10 @@ ul {
     margin-right: 30px;
 }
   
+.work-item:last-child {
+    margin-right: 0;
+  }
+
 .work-item > img {
     display: block;
 }
@@ -316,6 +323,7 @@ ul {
 
 .address {
     font-weight: 400;
+    font-style: normal;
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--bg-main);
@@ -410,6 +418,7 @@ ul {
 
 .portfolio-img {
     display: block;
+    margin: 0;
 }
 
 .portfolio-text {
